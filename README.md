@@ -5,75 +5,104 @@
 <h1 align="center">OiBuddy</h1>
 
 <p align="center"><strong>A tiny friend lives in your editor.</strong><br>
-It reminds you to drink water, rest your eyes, stretch and walk, and it waits for a natural pause.</p>
+Gentle reminders to drink water, rest your eyes, stretch and walk, timed to your pauses.</p>
 
-![The OiBuddy sidebar: Miso on the shelf with a water jar and the next reminder](docs/store/sidebar-panel.png)
+![Miso, Biscuit, Clover, Pebble, Rusty, Theo and Maya sharing a sunny windowsill](docs/store/banner.png)
+
+A long stretch of coding can make a glass of water or a short break easy to forget. OiBuddy gives those moments a friendly face: a painted buddy who shares your workspace and waits for a natural pause before visiting.
+
+![Miso walks into the sidebar with a water reminder, then celebrates when Done is chosen](docs/store/visit.gif)
 
 > **Preview.** OiBuddy is new and still growing. The buddies' movements and voices are still being polished, so expect small changes in coming updates.
 
-## Contents
+## A home in the sidebar
 
-- [What it does](#what-it-does)
-- [Meet the crew](#meet-the-crew)
-- [Getting started](#getting-started)
-- [How it behaves](#how-it-behaves)
-- [Make it yours](#make-it-yours)
-- [Commands](#commands)
-- [Privacy and data](#privacy-and-data)
-- [Feedback](#feedback)
+Your buddy reads while you type, nods when you save, wanders, waves and naps when you step away, then welcomes you back. A jar fills with today's water, and a sprout grows as you keep meeting your water goal. The next reminder is always close by.
 
-## What it does
+![Miso at home on the dark sidebar shelf, beside the water jar, sprout and next-reminder tag](docs/store/sidebar.png)
 
-- **A home in the sidebar.** Your buddy lives on a shelf. It reads while you type, nods when you save, wanders, waves and naps when you step away, then welcomes you back. A jar fills with today's water, and a sprout grows as you keep meeting your water goal.
-- **Gentle visits.** When a reminder is due, your buddy walks in with a speech bubble. Choose **Do it with me** for a short guided break, or **Done**, **Later** or **Skip**.
-- **The status bar.** Your buddy's face shows what is next, such as "Water in 12 min", "Miso is waiting" or "Focus · 18 min left". While a reminder waits, it plays peekaboo behind the shelf. Click it to open your buddy.
-- **A peek in your code.** While a reminder waits, your buddy peeks out beside the line numbers and ducks away as soon as you type. Hover that line to read the reminder or call your buddy in now.
-- **A shelf in the bottom panel.** Next to the Terminal, your buddy strolls along a wide shelf, plays hide-and-seek (click it when you spot it) and comes in for reminders.
-- **Focus sessions and focus sounds.** Start a focus session from the sidebar, the dashboard or **Quick Actions**. Play original lofi tracks, rain, fireplace, café, night or wave sounds, on their own or every time a session starts.
-- **A dashboard.** Your day on one timeline, the week's water, your little wins, your reminders, settings and the crew.
+## A little break, together
 
-![Today on the dashboard](docs/store/dashboard.png)
+When a reminder is due, your buddy walks in with a speech bubble. Choose **Do it with me** for a short guided break, or **Done**, **Later** or **Skip**. Practice visits let you try it without adding to your progress.
 
-## Meet the crew
+![A guided break in progress, with the current stretch instruction and a countdown timer](docs/store/guided-break.png)
 
-Pick a buddy during setup, switch any time on the crew page, and give them your own name.
+## Later is okay
 
-| Buddy   | Who     |
-| ------- | ------- |
-| Miso    | Cat     |
-| Biscuit | Dog     |
-| Clover  | Rabbit  |
-| Pebble  | Penguin |
-| Rusty   | Fox     |
-| Theo    | Boy     |
-| Maya    | Girl    |
+Busy at the moment? Choose **Later**. Your buddy gives a gentle sigh and shows when it will return. Pick 5 minutes, 15 minutes or your reminder's usual Later time.
 
-Each buddy walks in on painted legs and has its own voice in English, Hindi and Bengali.
+![Miso's gentle sigh after Later is chosen, with the return time shown](docs/store/later.png)
+
+## A peek in your code
+
+While a reminder waits, your buddy peeks out beside the line numbers and ducks away as soon as you type. Its face in the status bar shows what is next, from the next water break to the time left in a focus session. Click the status bar to open your buddy.
+
+![OiBuddy peeking beside the editor's line numbers, with its face visible in the status bar](docs/store/code-peek.png)
+
+Hover the peek to read the reminder or choose **Come in now**.
+
+![The code-peek hover card showing the reminder and Come in now action](docs/store/code-peek-hover.png)
+
+## A shelf beside the Terminal
+
+Prefer a wider home? Open the bottom-panel shelf. Your buddy strolls, sometimes hurries or does a little hop, and plays hide-and-seek. Click when you spot it.
+
+![The OiBuddy bottom-panel shelf in VS Code beside the Terminal](docs/store/shelf.png)
+
+![Biscuit strolling along the bottom-panel shelf, peeking from the edge and returning to sit](docs/store/shelf.gif)
+
+## Find your focus sound
+
+Play original lofi tracks with rain, fireplace, café, night or wave ambience. Start them on their own or with a focus session. Focus sounds have their own volume and get quieter while your buddy visits. Voice, sound effects and focus sounds are optional and start off.
+
+![The Focus sounds panel with a music track and an ambience selected](docs/store/focus-sounds.png)
+
+## See your day, kindly
+
+The Today dashboard puts your day on one timeline: water, breaks and little wins. Look back at the week's water or log a glass whenever you like, in millilitres or ounces.
+
+![The light-theme Today dashboard showing a day's timeline, water progress and little wins](docs/store/dashboard.png)
+
+## English, हिन्दी and বাংলা
+
+Choose your language for every screen and everything your buddy says. Each buddy has its own voice in English, Hindi and Bengali. English is the default.
+
+![The same OiBuddy sidebar shown in Hindi and Bengali side by side](docs/store/languages.png)
+
+## Make it yours
+
+### Meet the crew
+
+Choose Miso the cat, Biscuit the dog, Clover the rabbit, Pebble the penguin, Rusty the fox, Theo or Maya. Pick during setup, switch any time on the crew page, and give your buddy your own name. Their finished looks stay the same.
+
+![The crew page with all seven selectable OiBuddy companions](docs/store/crew.png)
+
+### Set your rhythm
+
+Choose working days, hours to the minute, overnight shifts and Later time for each reminder. Add one of eight ready-made habits, or set up a custom reminder. Focus sessions can last from 1 to 240 minutes.
+
+![The reminders page with water, stretch, eye-rest and walking reminders and habit templates](docs/store/reminders.png)
+
+### Choose where your buddy appears
+
+Turn the code peek, status-bar peekaboo and bottom-panel shelf on or off in Settings. All three start on. OiBuddy follows your light, dark or high-contrast theme; **Reduce animation** and your system's reduced-motion setting are respected everywhere.
+
+![Settings showing where your buddy appears, optional audio and sound controls](docs/store/settings.png)
 
 ## Getting started
 
 1. Install **OiBuddy** from the Extensions view.
-2. Click the **OiBuddy** icon (a little face peeking over a ledge) in the Activity Bar.
-3. A three-step setup asks for your buddy, your rhythm and your working hours. That's it.
+2. Click the **OiBuddy** icon, a little face peeking over a ledge, in the Activity Bar.
+3. Choose your buddy, your rhythm and your working hours in the three-step setup.
 
 ## How it behaves
 
-- **It waits for you.** Reminders hold while you type, debug or run a task. A waiting buddy peeks in and comes over at your next pause. After 10 minutes, it comes in at the next short break in your typing.
+- **It waits for you.** Reminders hold while you type, debug or run a task. A waiting buddy visits at your next pause. After 10 minutes, it comes in at the next short break in your typing.
 - **Breaks count.** Five minutes or more away from the keyboard counts as a break for your eyes, stretches and walks. Time spent in another app does not.
 - **No pile-ups.** Visits are spaced out. After quiet hours, sleep or time away, you get one overdue reminder instead of a burst.
-- **Honest progress.** **Done** counts as progress. **Later** brings your buddy back in 5 minutes, 15 minutes or your usual Later time. Skipping, missed visits, pauses and edits never count as progress.
+- **Honest progress.** **Done** counts. Skipping, missed visits, pauses and edits never count as progress.
 - **Kind suggestions.** If a reminder keeps getting skipped, OiBuddy suggests a longer interval. When a focus session ends, your buddy offers a short break.
 - **Easy pauses.** Pause for 30 minutes, an hour or until work starts again. Reminders come back on their own.
-
-## Make it yours
-
-- **Name your buddy** on the crew page. The name shows in speech bubbles, notifications and the status bar.
-- **Language:** English, हिन्दी or বাংলা for every screen and everything your buddy says.
-- **Rhythm:** working days, hours to the minute, overnight shifts, Later time for each reminder, focus sessions from 1 to 240 minutes and eight ready-made habits to add.
-- **Water:** log a glass any time with **+1 glass**, in millilitres or ounces.
-- **Sound:** voice, sound effects and focus sounds are optional and start off. Voice and sound effects share one volume; focus sounds have their own.
-- **Where it shows up:** turn the code peek, the status-bar peekaboo and the bottom-panel shelf on or off in Settings, or with `oibuddy.peekInCode`, `oibuddy.animateStatusBar` and `oibuddy.bottomPanel`. All three start on.
-- **Comfort:** OiBuddy follows your light, dark or high-contrast theme. **Reduce animation** and your system's reduced-motion setting are respected everywhere.
 
 ## Commands
 
@@ -84,14 +113,14 @@ Each buddy walks in on painted legs and has its own voice in English, Hindi and 
 | OiBuddy: Log a Glass of Water       | Records one glass                                                          |
 | OiBuddy: Play or Pause Focus Sounds | Starts or stops focus sounds                                               |
 | OiBuddy: Pause or Resume Reminders  | Pauses reminders until you resume them                                     |
-| OiBuddy: Try a Visit                | A practice visit that doesn't count toward progress                        |
+| OiBuddy: Try a Visit                | A practice visit that does not count toward progress                       |
 | OiBuddy: Open Data Folder           | Shows where your data is stored                                            |
 
 ## Privacy and data
 
-- **Stays on your computer.** Your settings, reminders and progress are saved in VS Code's local storage for extensions. No account, no tracking and no network requests: fonts, artwork and audio all ship inside the extension.
-- **One buddy across windows.** Every VS Code window shares the same buddy, and each visit shows in only one window. Saves from different windows never overwrite each other.
-- **Safe from damage.** If a saved file is damaged, OiBuddy restores the last good backup and keeps the damaged file until your next change. Data saved by a newer version of OiBuddy is never overwritten.
+**Your buddy stays on your computer.** No account, no tracking and no network requests. Fonts, artwork and audio ship inside the extension; settings, reminders and progress stay in VS Code's local extension storage.
+
+Every VS Code window shares the same buddy, and each visit shows in only one window. Saves from different windows never overwrite each other. If a saved file is damaged, OiBuddy restores the last good backup and keeps the damaged file until your next change. Data saved by a newer version is never overwritten.
 
 ## Feedback
 
