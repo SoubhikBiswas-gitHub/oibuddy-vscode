@@ -1,14 +1,13 @@
 # Changes
 
-## Unreleased
+## 0.3.0 preview
 
-- Give each buddy a real run for when it hurries along its shelf, a small painted hop, and a gentle sigh when you choose Later.
-- Make the buddy's shelf life livelier: it now walks between spots on its painted legs, sometimes hurries, waves hi when it arrives and now and then does a small happy hop. It stays still while you type, while a reminder waits, during visits and with reduced motion.
-- Let every buddy walk calmly onto the screen when a reminder arrives: a 16-frame painted walk with alternating legs, the same face throughout and feet that stay planted instead of sliding.
-- Bring the buddy closer to your work: it peeks out beside the line numbers while a reminder waits, plays peekaboo in the status bar with its own face, and has a wide shelf in the bottom panel for strolls and hide-and-seek. Each can be switched off in Settings.
-- Add focus sounds: original lofi tracks and calm ambience (rain, fireplace, café, night, waves) that loop smoothly, shuffle without repeats, quieten while the buddy visits, and can start and stop with a focus session. They play from one OiBuddy view per window and keep going when the view is hidden.
-- Give each moment its own cue: guided breaks sound their start and finish, a breath sound guides each inhale when voice is off, logging a glass pours water, and reminders, the water goal, focus and petting use their own sounds as they are added.
-- Even out the loudness of every sound effect.
+- Meet your buddy in more places: beside the line numbers, in the status bar and on a wide shelf next to the Terminal. Turn each one on or off in Settings.
+- Find your focus sound: original lofi tracks and calm rain, fireplace, café, night and wave ambience. Sounds loop, shuffle without repeats, get quieter during visits and can follow your focus sessions, even when the view is hidden.
+- Watch your buddy walk in on painted legs when a reminder arrives. On the shelf, it strolls, sometimes runs, waves and makes a little hop. Choose Later for a gentle sigh. Shelf motion pauses while you type, while a reminder waits, during visits and when motion is reduced.
+- Hear soft cues for guided breaks, a breath for each inhale when voice is off, and a water pour when you log a glass. Sound effects now play at an even volume.
+- Read clearer, kinder wording in English, Hindi and Bengali, with consistent names across screens.
+- Download less: the buddies' paintings and voices take less than half the space, with no visible or audible change.
 
 ## 0.2.0 preview: the Windowsill
 
