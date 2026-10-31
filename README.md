@@ -124,7 +124,7 @@ Every VS Code window shares the same buddy, and each visit shows in only one win
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](https://github.com/SoubhikBiswas-gitHub/oibuddy-vscode/issues).
+Found a bug or have an idea? [Open an issue](https://github.com/soubhik-biswas/oibuddy-vscode/issues).
 
 ## License
 
